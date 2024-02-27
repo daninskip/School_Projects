@@ -1,0 +1,24 @@
+main {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    max-width:100%;
+}
+
+.country-properties{
+    text-align: center;
+    background-color: gainsboro;
+    border-radius: 25px;
+    width: 24%;
+}
+
+path:hover{
+    fill: red;
+    stroke: lightcoral;
+}
+
+.reference {
+    font-size: 8pt;
+}
