@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: rgb(152, 228, 228);
+    padding: 10px;
+}
+
+#container{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+#container-main{
+    display: flex;
+    
+}
+
+.navBut{
+    background-color: lightgray;
+    padding: 5px;
+    border: 5px double gray;
+    
+}
+a:hover {
+    background-color:red;
+}
+
+header{
+    vertical-align: middle;
+}
+
+footer{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#section-main{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    flex: 0 1 70%;
+}
+
+img{
+   float: right;
+   position: relative;
+   top:20px;
+}
+
+aside{
+    float:right;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    flex: 0 1 30%;
+    position: relative;
+}
+
+#table-cities{
+    border: solid 1pt lightgray;
+}
+
+#table-ancestry{
+    border: solid 1pt lightgray;
+}
+
+td{
+    padding: 5px;
+}
+
+form{
+    position: absolute;
+    top:95px;
+    left: 5px;
+}
