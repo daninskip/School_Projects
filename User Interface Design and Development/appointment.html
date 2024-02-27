@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Paradign Pet Professionals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="images/PPP_Logo.png" alt="Paradigm Pet Professionals Logo" id="PPP-Logo">
+            <br>
+            <div class="nav-bar">
+                <div class="nav-primary">
+                    <a href="Home.html" class="nav-link">Home</a>
+                    <a href="dog_owners.html" class="nav-link">Dog Owners</a>
+                    <a href="cat_owners.html" class="nav-link">Cat Owners</a>
+                    <a href="fish_owners.html" class="nav-link">Fish Owners</a>
+                </div>
+                <div class="nav-secondary" class="nav-link">
+                    <a href="appointment.html" class="nav-link-current">Request Appointment</a>
+                    <a href="faq.html" class="nav-link">FAQs</a>
+                    <a href="about.html" class="nav-link">About Us</a>
+                    <input type="text" placeholder="Find something...">
+                    <button type="submit">Search</button>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+           
+            <div class="form-wrapper">
+                Would you like a one-on-one consultation with one of our "Pexperts"? Then fill in the form below and we will be in touch within 48 hours.
+                <form>
+                    <br><br>
+                    <h2>About you:</h2>
+                    <div class="grid-container-2"></div>
+                        <div>
+                            <label for="firstName">First Name:</label>
+                        </div>
+                        <div>
+                            <input type="text" name="firstName" id="firstName">
+                        </div>
+                        <div>
+                            <label for="lastName">Last Name:</label>
+                        </div>
+                        <div>
+                            <input type="text" name="lastName" id="lastName">
+                        </div>
+                        <div>
+                            <label for="phone">Phone Number:</label>
+                        </div>
+                        <div>
+                            <input type="text" name="phone" id="phone">
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                        </div>
+                        <div>
+                            <input type="text" name="email" id="email">
+                        </div>
+                        <div>
+                            <label for="timeZone">TimeZone:</label>
+                            <select name="timeZone">
+                                <option value="HST">HST</option>
+                                <option value="AKST">AKST</option>
+                                <option value="PST">PST</option>
+                                <option value="MST">MST</option>
+                                <option value="CST">CST</option>
+                                <option value="EST">EST</option>
+                            </select>
+                        </div>
+                    <br>
+                   <h2>About your pet:</h2>
+                        <div>
+                            <label for="petName">Pet Name:</label>
+                        </div>
+                        <div>
+                            <input type="text" name="petName" id="petName">
+                        </div>
+                        <div>
+                            <label for="type">Pet Type:</label>
+                        </div>
+                        <div>
+                            <input type="text" name="type" id="type">
+                        </div>
+                        <div>
+                            <label for="age">Pet Age:</label>
+                        </div>
+                        <div>
+                            <input type="text" name="age" id="age">
+                        </div>
+                        <div>
+                            <label for="comments">Additional Comments:</label>
+                        </div>
+                        <div>
+                            <textarea name="comments" id="comments"></textarea>
+                        </div>
+                        <input type="submit" value="Submit"> <input type="reset" value="Reset">
+                    </div>
+                    
+                </form>
+           
+            <br><br>
+        </div>
+    </div>
+    <footer>
+        <img src="images/PPP_Logo.png" height="50px"><br>
+        Copyright &#169; 2024 Paradigm Pet Professionals
+    </footer>
+</body>
+
+</html>

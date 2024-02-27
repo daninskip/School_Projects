@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #676767; 
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    color: #ffffff; 
+    padding-top: 10px;
+    width: 100%;
+}
+
+#PPP-Logo {
+    max-width: 100%;
+    height: 100px;
+    align-self: flex-start;
+}
+
+.nav-bar {
+    background-color: #003b6d;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align:middle;
+}
+
+.nav-primary {
+    background-color: #003b6d;
+    margin-top: 10px;
+    width:35%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content:space-evenly;
+    vertical-align:middle;
+}
+
+.nav-secondary {
+    background-color: #003b6d;
+    padding: 10px;
+    width:35%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-between;
+    vertical-align:middle;
+}
+
+.nav-link {
+    color: #bdbdbd;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #676767;
+}
+.nav-link-current {
+    border-bottom: 10pt solid #6699CC;
+    text-decoration: none;   
+    color: #bdbdbd; 
+}
+
+input[type="text"], button {
+    margin-left: 20px;
+}
+
+button {
+    background-color: #6699CC;
+    color: #ffffff; 
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #003B6D;
+}
+
+.main-content {
+    margin-top: 20px;
+}
+
+.wrapper{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+
+
+.section-1{
+    border: 2px solid #003B6D;
+    padding: 20px;
+    color: black;
+    border-radius: 10px;
+    background: rgba(189, 189, 189, 0.8);
+    font-size: 20pt;
+
+    z-index: 3; 
+    position: absolute;
+    max-width: 600px;
+    margin-top: 200px;
+    max-height: 500px;
+    margin-left: 200px;
+    
+}
+
+.section-2{
+    z-index: 2;
+}
+
+.section-3{
+    z-index: 1;
+}
+
+.section-1, .section-4 {
+    color: #676767;
+}
+
+.section-2, .section-3 {
+    text-align: center;
+    position: relative;
+}
+
+.section-2 img, .section-3 img {
+    max-width: 100%;
+    max-height: 500px;
+    display: block;
+    border-radius: 10px;
+}
+
+.section-2 img {
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+.section-3 img{
+    margin-top: 300px;
+    margin-left: 425px;
+}
+
+.section-4{
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 16pt;
+    line-height: 1.5;
+    margin-left: 20px;
+}
+
+.section-4 ul{
+    list-style-type: square;
+    margin-left: 50px;
+}
+
+.section-4 li{
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #003B6D;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+#grid-container-2{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+#grid-container-2 > div {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+ }
+ 
+#grid-container-3, #grid-container-fish{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin: 100px;
+    border: 2px solid #003B6D;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#grid-container-3 > div {
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+#grid-item-1{
+    grid-column: 1/3;
+}
+
+#grid-item-4{
+    grid-column: 2/4;
+    vertical-align: middle;
+}
+
+
+#dog-intro {
+    text-align: justify;
+    background: #bdbdbd;
+    color: black;
+    font-size: 15pt;
+    padding: 5pt;
+}
+
+h2 {
+    color: #6699CC;
+}
+
+ul{
+    margin: 20px;
+}
+
+.question{
+    font-weight: bold;
+    color:#003B6D;
+}
+
+.answer{
+    margin-bottom: 20px;
+}
+
+.faq-wrapper{
+    margin: 20px;
+}
+
+.form-wrapper{
+    border: 2px solid #003B6D;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    background-color: #bdbdbd;
+}
+
